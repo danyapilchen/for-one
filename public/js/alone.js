@@ -109,7 +109,7 @@ const setProbability = (probability) =>{
   }
 }
 
-setProbability(70);//<<<<<<<----Setprobabiblity to play. It is set to 50% chance of play. You can change from 10% up to 100%
+setProbability(90);//<<<<<<<----Setprobabiblity to play. It is set to 50% chance of play. You can change from 10% up to 100%
 
 
 
@@ -172,6 +172,7 @@ sketch = function(p){
     if(!onButtonclick){
       p.fill(0);
       p.textFont('Georgia');
+      p.fill('255');
       p.textSize(19);
       p.textAlign(p.CENTER, p.CENTER);
       p.text(instruction1,(p.windowWidth-50)/2, (p.windowHeight-400)/2-30);
