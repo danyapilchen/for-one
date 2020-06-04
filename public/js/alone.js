@@ -1,7 +1,7 @@
 const socket = io();
 const instruction1 = 'Click the button above to start listening to the piece.';
-const instruction2 = 'After that, you will see a flash of red light every time I send the message.'
-const instruction3 = 'You may or may not receive the message for each message is addressed to only one listener at a time.';
+const instruction2 = 'After that, you will see a flash of red light every time I send a message.'
+const instruction3 = 'You may or may not receive the message since each message is addressed to only one listener at a time.';
 
 let onButtonclick = false;
 let metro = 0;
